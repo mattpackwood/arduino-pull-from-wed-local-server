@@ -17,6 +17,10 @@
  This code is in the public domain.
  */
 
+ /*
+ Additions made by MJP for local implementation
+ */
+
 #include <SPI.h>
 #include <WiFi.h>
 
