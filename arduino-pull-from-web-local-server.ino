@@ -23,6 +23,7 @@
 
 #include <SPI.h>
 #include <WiFi.h>
+#include "WiFi_Credentials.h"
 
 char ssid[] = "yourNetwork";      //  your network SSID (name)
 char pass[] = "secretPassword";   // your network password
