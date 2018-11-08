@@ -25,8 +25,11 @@
 #include <WiFi.h>
 #include "WiFi_Credentials.h"
 
-char ssid[] = "yourNetwork";      //  your network SSID (name)
-char pass[] = "secretPassword";   // your network password
+/* The assigment is now done in the WiFi_Credentials.h file
+char WIFI_SSID[] = "yourNetwork";      //  your network SSID (name)
+char pass[] = "secretPassword";   // your network password 
+End of removed code - */
+
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 
 int status = WL_IDLE_STATUS;
@@ -63,9 +66,9 @@ void setup() {
   // attempt to connect to Wifi network:
   while (status != WL_CONNECTED) {
     Serial.print("Attempting to connect to SSID: ");
-    Serial.println(ssid);
+    Serial.println(WIFI_SSID);
     // Connect to WPA/WPA2 network. Change this line if using open or WEP network:
-    status = WiFi.begin(ssid, pass);
+    status = WiFi.begin(WIFI_SSID, WPA_PASSWORD);
 
     // wait 10 seconds for connection:
     delay(10000);
