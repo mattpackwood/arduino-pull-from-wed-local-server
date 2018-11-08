@@ -18,7 +18,8 @@
  */
 
  /*
- Additions made by MJP for local implementation
+ Additions made by MJP for local implementation - Pull data from personal server (Apache hosted on Raspberry Pi) and use
+ this to drive displays etc.
  */
 
 #include <SPI.h>
