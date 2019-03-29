@@ -20,6 +20,8 @@
  /*
  Additions made by MJP for local implementation - Pull data from personal server (Apache hosted on Raspberry Pi) and use
  this to drive displays etc.
+ 
+ No infringment of licenses intended....
  */
 
 #include <SPI.h>
